@@ -63,6 +63,8 @@ Designed and automated a four-tier highly available OpenStack platform using Pul
 
 `OpenStack` `Pulumi` `Ansible` `HAProxy`
 
+[Project repository](https://github.com/wejden123cherif/hackership-iac)
+
 ### AWS e-commerce microservices
 
 Designed a three-service AWS application using API Gateway, Cognito, Secrets Manager, and AWS WAF. Co-authored a security assessment using Prowler and ScoutSuite: 467 check results and 10 documented findings. These are audit results, not a claim of ISO certification.
