@@ -49,9 +49,7 @@ I’m focused on **Cloud Security, DevSecOps, AI-assisted SOC, and Security Engi
 
 ### MedFlow AI — AI-assisted SOC investigation
 
-Built an AI-assisted security investigation workflow with a six-node pipeline and four RAG knowledge bases for IOC enrichment, MITRE ATT&CK mapping, and grounded reporting. Developed response connectors with human approval gates.
-
-**Reported controlled-test results:** 96.7% faster triage; all destructive actions in the test set were blocked by approval gates. These are experimental results, not production benchmarks; live containment has not been verified.
+Built an AI-assisted SOC investigation prototype that combines Wazuh and Suricata telemetry with ATT&CK-grounded RAG and human-reviewed response planning. Its 39-query evaluation measures retrieval quality, not analyst triage time or operational accuracy. The previously reported 96.7% faster-triage figure is not substantiated by repository evidence, and live containment is not verified.
 
 `Python` `LangGraph` `ChromaDB` `FastAPI` `Wazuh` `Suricata`
 
@@ -59,7 +57,7 @@ Built an AI-assisted security investigation workflow with a six-node pipeline an
 
 ### FelCloud — highly available OpenStack platform
 
-Designed and automated a four-tier highly available OpenStack platform using Pulumi and Ansible. Internship testing reported one-command provisioning in 20 minutes. This is a high-level project summary; the implementation repository is not publicly accessible.
+Worked on an OpenStack infrastructure project using Pulumi and Ansible during my FelCloud internship. The linked repository is public and contains Pulumi networking, security-group, application/database VM, storage, and bastion configuration. Its current public branch does not include Ansible playbooks or a load-balancer implementation, so the repository does not demonstrate end-to-end high availability or substantiate the previously reported 20-minute provisioning time.
 
 `OpenStack` `Pulumi` `Ansible` `HAProxy`
 
@@ -67,7 +65,7 @@ Designed and automated a four-tier highly available OpenStack platform using Pul
 
 ### AWS e-commerce microservices
 
-Designed a three-service AWS application using API Gateway, Cognito, Secrets Manager, and AWS WAF. Co-authored a security assessment using Prowler and ScoutSuite: 467 check results and 10 documented findings. These are audit results, not a claim of ISO certification.
+Built a Flask microservices application with a custom API gateway and deployed it in an AWS Academy lab. The lab included Cognito authentication, AWS WAF, CloudTrail/CloudWatch detections, and a Step Functions/Systems Manager response path tested against an approved disposable instance. Co-authored a Prowler/ScoutSuite assessment with 467 Prowler check-resource results and 10 findings; these are lab audit results, not a certification or production assurance.
 
 `AWS` `Python` `Flask` `PostgreSQL` `Cognito` `Prowler` `ScoutSuite`
 
@@ -75,7 +73,7 @@ Designed a three-service AWS application using API Gateway, Cognito, Secrets Man
 
 ### Smartovate — DevOps internship
 
-Automated deployments of a Dockerized web application to AWS EKS with GitHub Actions and contributed to PostgreSQL, monitoring, and centralized logging. The internship reported five-minute releases; this is a project result, not a production service-level guarantee.
+Collaborated on a certification platform with a Dockerized Next.js/Flask stack and AWS EKS deployment workflow. My recorded commits focus on homepage data/assets and shared frontend components; the backend and deployment pipeline were broader team work. The CV-reported release time of about five minutes is not independently measured in the repository and is not a production SLA.
 
 `AWS EKS` `Docker` `GitHub Actions` `PostgreSQL` `CloudWatch`
 
